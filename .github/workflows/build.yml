@@ -13,13 +13,16 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.16.0'
+          flutter-version: '3.24.0'
           channel: 'stable'
+
+      - name: Create build directory
+        run: mkdir -p build
 
       - name: Get dependencies
         run: flutter pub get
