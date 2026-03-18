@@ -1,0 +1,27 @@
+name: cc_switch_minimax
+description: 小红书链接数据自动抓取工具
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  permission_handler: ^11.0.0
+  clipboard: ^0.1.3
+  share_plus: ^7.0.0
+  path_provider: ^2.1.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
