@@ -112,3 +112,7 @@ cc-switch-minimax-auto/
 ## License
 
 MIT
+
+## 最后更新
+
+2026-03-18 - 优化构建流程，修复GitHub Actions构建问题
